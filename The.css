@@ -1,0 +1,264 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+}
+
+
+@media  (min-width: 321px) and (max-width: 480px) {
+    .background-pic{
+        flex: 1 1 100%;
+        font-size: 14px; /* Adjust font size for better readability */
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -200%;
+        scale: 1.5;
+        margin-left: 63%;
+    }
+
+    .logo-text{
+        flex-wrap: wrap;
+        scale: 1.4;
+        margin-top:-250%;
+        margin-left: 44%;
+
+    }
+    .desktop-text{
+        display: none;
+    }
+
+
+    section p0 {
+        font-size: medium;/* Adjust header and footer font size */
+        font-family: "Poppins", sans-serif;
+        color: white;
+        font-weight:600;
+        font-style: normal;
+        margin-top: 320%;
+        scale: 4;
+        margin-left: 97%;
+        display: flex;
+        white-space: nowrap;
+        margin-bottom: -15%
+        
+    }
+
+    section p2{
+        font-family: "Poppins", sans-serif;
+        color: white;
+        font-weight:600;
+        font-style: normal;
+        display: block;
+        white-space: nowrap; 
+        padding-left: 63%;
+        margin-top: 30%;
+        scale: 4;
+        margin-bottom: -6em
+    }
+    
+    .text{
+        margin-bottom: 100%
+    }
+    .text p1{
+        color: white;
+        display: flex;
+        justify-content: last baseline; /* Centers horizontally */
+        align-items: baseline; /* Centers vertically */
+        font-size: 3.3em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        margin: 60% 62%;
+        text-wrap: nowrap;
+        margin-bottom: -.1em;   
+    }
+    .text p3{
+        color: white;
+        display: flex;
+        font-size: 3.3em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        margin: 0% 57%;
+        text-wrap: nowrap;
+        margin-bottom: 0
+    }
+    .text p4{
+        color: white;
+        display: flex;
+        font-size: 3.3em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        margin: 0% 50%;
+        text-wrap: nowrap;
+    }
+    .text p5{
+        color: white;
+        display: flex;
+        font-size: 3.3em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        margin: 0% 80%;
+        text-wrap: nowrap;
+    }
+    .text p6{
+        color: white;
+        display: flex;
+        font-size: 3.3em;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 350;
+        font-style: normal;
+        margin: 0% 130%;
+        text-wrap: nowrap;
+    }
+
+    button{
+        display: flex;
+        padding: .6em 5.2em;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        color: hsl(257, 40%, 49%);
+        background-color: white;
+        border: none;
+        border-radius: 9em;
+        cursor: pointer;
+        box-shadow: none;
+        scale: 3;
+        margin: -65% 163%;
+        
+    }
+    .socialicons{
+        display: flex;
+        justify-content: space-evenly;
+        filter:invert();
+        scale: .2;
+        margin: 45% 150%;
+    }
+    .one{
+        margin: 5%;
+    }
+
+    .two{
+        margin: 5%;
+    }
+
+    .three{
+        margin: 5%;
+    }
+}
+
+/* Devices with width of 1440px */
+@media (min-width: 481px) and (max-width: 1440px) {
+    body{
+        background-color: hsl(257, 40%, 49%);
+    }
+    header .logo{
+        margin: 0;
+    }
+    .logo-text{
+        margin: 0;
+        margin-top: 4.6em;
+        position: relative;
+        left: 6%; /* Move the image to the left */
+        top: -3%; /* Optional: Adjust the vertical position */
+        overflow-x: hidden;
+        position: absolute;
+    }
+    
+    .background-pic{
+        margin: 0;
+        margin-top: 8.8em;
+        position: relative;
+        left: 6%; /* Move the image to the left */
+        top: 10%;
+        overflow-x: hidden;
+        position: absolute;
+    }
+    
+    section{
+        display: flex;
+        text-wrap: nowrap;
+    }
+    
+    section p0{
+        margin-top: -80%;
+        margin-left: 57%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2.7em;
+        color: white;
+        letter-spacing: 0;
+        text-align: left;
+        transform: scale(0.75);
+      
+    }
+    section p2{
+        margin-top: -76%;
+        margin-left: -35%;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 2.7em;
+        color: white;
+        letter-spacing: 0;
+        text-align: left;
+        transform: scale(0.75);
+    }
+    .text{
+        display: none;
+    }
+    .desktop-text{
+        color: white;
+        display: flex;
+        text-wrap: nowrap;
+        text-align: justify;
+        font-family: "Poppins", sans-serif;
+    }
+    .desktop-text p1{
+        margin-top: -38%;
+        margin-left: 61.7%;
+        font-weight: 400;
+    }
+    .desktop-text p2{
+        margin-top: -36%;
+        margin-left: -36.9%;
+        font-weight: 400;
+    }
+    .desktop-text p3{
+        font-weight: 400;
+        margin-top: -34%;
+        margin-left: -36%;
+    }
+    
+    button{
+        padding: .5em 3.5em;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        color: hsl(257, 40%, 49%);
+        background-color: white;
+        border: none;
+        border-radius: 9em;
+        cursor: pointer;
+        display: block;
+        margin-top: -50%;
+        margin-left: 61%;
+
+    }
+    
+    .socialicons{
+        display: flex;
+        scale: .075;
+        filter: invert();
+        margin: -7% 86%;
+        justify-items: center;
+    }
+    .one{
+        margin: -60%;
+    }
+  
+
+}
